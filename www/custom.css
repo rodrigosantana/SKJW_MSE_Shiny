@@ -1,0 +1,29 @@
+p {
+    text-align: justify !important;
+    font-size: 20px !important;
+}
+
+H1 {
+    text-align: center !important;
+}
+
+.box.box-success > .box-header {
+    color: #fff;
+    border-top-color: #666666;
+}
+  
+.box.box-success {
+    border-top-color: #666666;
+}
+
+.box.box-solid.box-success > .box-header {
+    color: #fff;
+    background: #666666
+}
+  
+.box.box-solid.box-success {
+    border-bottom-color: #666666;
+    border-left-color: #666666;
+    border-right-color: #666666;
+    border-top-color: #666666;
+}
