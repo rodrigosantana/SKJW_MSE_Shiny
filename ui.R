@@ -42,8 +42,8 @@ sidebar <- dashboardSidebar(
     sidebarMenu(
         menuItem("Introduction", tabName = "intro",
                  icon = icon("chalkboard-teacher")),
-        menuItem("Operating Models", tabName = "oms",
-                 icon = icon("database")),
+        ## menuItem("Operating Models", tabName = "oms",
+        ##          icon = icon("database")),
         menuItem("Trajectories", tabName = "traj",
                  icon = icon("chart-line")),
         menuItem("Kobe timeseries", tabName = "kobe",
