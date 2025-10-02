@@ -12,9 +12,6 @@ To run this application locally on your computer, simply execute
 the following commands in the **R** console.
 
 ```{r} 
- install.packages(c("shiny", "shinydashboard", "ggplot2", "grid", 
-                    "markdown", "ggExtra", "leaflet", "plotly", "DT", "viridis"), 
-                    dependencies = TRUE)
  shiny::runGitHub("SKJW_MSE_Shiny", "rodrigosantana")
 ```
 
@@ -32,11 +29,6 @@ Licence Creative Commons 4.0
 Rodrigo Sant'Ana    | rsantana@univali.br  
 Bruno Mourato       | bruno.mourato@unifesp.br  
 
-A product developed by 
-<a href="http://www.datenkraft.com.br">
-<img src="www/logo_pt.png" width="250px" />
-</a>
-<BR /><BR />
 
 Product for exclusive use of
 <a href="https://iccat.int/">
